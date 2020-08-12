@@ -28,7 +28,7 @@
         font-weight: normal
         font-size: 18px
         line-height: 25px
-        &__bold
+        &-bold
             text-decoration: none
             color: $primary
             font-family: Open Sans
@@ -57,9 +57,26 @@
             height: 350px
             background-color: $secondary
             border-radius: 8px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
         &__item
             align-items: center
             margin-bottom: 35px
+.button
+    &-image
+        margin-bottom: 20px
+    &-description
+        display: block
+        font-family: HK Grotesk
+        font-style: normal
+        font-weight: bold
+        font-size: 24px
+        line-height: 32px
+        text-align: center
+        letter-spacing: 0.2px
+        color: $light
 .payment
     &__sum
         font-family: Open Sans
